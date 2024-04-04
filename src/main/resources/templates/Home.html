@@ -8,6 +8,22 @@
 
 
     <style>
+        .fondo-pantalla {
+            background-image: url('https://png.pngtree.com/background/20230522/original/pngtree-wallpaper-hd-nature-forest-lake-lake-in-autumn-picture-image_2696860.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+
+            color: white;
+            text-align: center;
+            padding-top: 50px;
+        }
         .custom-search-input {
             background-color: #f2f2f2;
             border-radius: 30%;
@@ -25,8 +41,8 @@
     </style>
 </head>
 <body>
-<div class="container">
-    <div class="container">
+<div class="container-fluid">
+    <div class="container-fluid">
         <nav class="nav nav-pills flex-column flex-sm-row">
             <form class="form-inline">
                 <div class="input-group custom-search-input">
@@ -67,7 +83,15 @@
             </ul>
         </div>
     </nav>
+
 </div>
 
+<div class="container-fluid fondo-pantalla">
+
+    <div class="content">
+        <h1>Bienvenido a mi página</h1>
+        <p>Esta es una página con fondo de imagen usando Bootstrap.</p>
+    </div>
+</div>
 </body>
 </html>
