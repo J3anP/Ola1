@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class HomeController {
     @RequestMapping(value = "/principal", method = RequestMethod.GET)
-    @ResponseBody
-    public String paginaPrincipal(){return "hola mundo";}
+    public String paginaPrincipal(){
+        return "hola mundo";
+    }
 }
+
